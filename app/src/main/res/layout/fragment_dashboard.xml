@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:foregroundTint="#7C1515"
     tools:context=".ui.dashboard.DashboardFragment">
 
     <TextView
@@ -23,12 +25,15 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <SearchView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#6D222222"
+        android:foregroundTint="#000000"
         app:layout_constraintBottom_toTopOf="@+id/text_dashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

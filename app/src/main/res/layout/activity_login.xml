@@ -42,7 +42,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="HINT" />
 
     <EditText
         android:id="@+id/password"
@@ -59,7 +60,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        android:autofillHints="HINT" />
 
     <ProgressBar
         android:id="@+id/loading"
@@ -83,7 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="120dp"
-        android:text="TRUCK LOCATOR APP"
+        android:text="@string/truck_parking_locator_app"
         android:textAlignment="center"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
