@@ -23,6 +23,7 @@
         android:layout_height="match_parent"
         tools:context=".MapsActivity">
 
+
     </androidx.fragment.app.FragmentContainerView>
 
 
@@ -51,9 +52,10 @@
 -->
 
     <SearchView
+        android:id="@+id/mapsearch"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="90dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -61,7 +63,9 @@
         android:background="#A81616"
         android:backgroundTint="#FFFFFF"
         android:foregroundTint="#000000"
-        tools:scrollbarSize="30dp" />
+        tools:scrollbarSize="30dp">
+
+    </SearchView>
 
     <Button
         android:id="@+id/button1"
@@ -75,8 +79,34 @@
         android:background="#359c5e"
         android:padding="8dp"
         android:text="@string/view_list"
-        android:onClick="goTo fragment_dashboard"
+        android:onClick="goTo @+id/app_bar"
         android:textColor="#ffffff"
         tools:ignore="OnClick,RelativeOverlap" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="100dp"
+        android:layout_height="121dp"
+        android:layout_alignRight="@id/mapsearch"
+        android:backgroundTint="#fff"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@android:drawable/ic_menu_more"
+        android:tint="#000000"
+        map:backgroundTint="#fff" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/map"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintLeft_toLeftOf="parent"
+        map:layout_constraintRight_toRightOf="parent"
+        map:menu="@menu/bottom_nav_menu" />
+
 
 </RelativeLayout>
