@@ -21,35 +21,8 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MapsActivity">
+        tools:context=".MapsFragment"/>
 
-
-    </androidx.fragment.app.FragmentContainerView>
-
-
-<!--
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme">
-
-
-
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:src="?attr/actionModeShareDrawable"
-            map:backgroundTint="#000000"
-            map:rippleColor="@color/colorPrimaryDark" />
-
-    </androidx.appcompat.widget.Toolbar>
--->
 
     <SearchView
         android:id="@+id/mapsearch"
@@ -74,14 +47,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="1000dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="80dp"
         android:background="#359c5e"
         android:padding="8dp"
         android:text="@string/view_list"
-        android:onClick="goTo @+id/app_bar"
-        android:textColor="#ffffff"
-        tools:ignore="OnClick,RelativeOverlap" />
+        android:textColor="#ffffff" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
@@ -94,19 +65,5 @@
         android:src="@android:drawable/ic_menu_more"
         android:tint="#000000"
         map:backgroundTint="#fff" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/map"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="?android:attr/windowBackground"
-        map:layout_constraintBottom_toBottomOf="parent"
-        map:layout_constraintLeft_toLeftOf="parent"
-        map:layout_constraintRight_toRightOf="parent"
-        map:menu="@menu/bottom_nav_menu" />
-
 
 </RelativeLayout>
