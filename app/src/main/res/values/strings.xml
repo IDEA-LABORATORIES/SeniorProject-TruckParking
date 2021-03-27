@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Truck Parking Locator</string>
-    <string name="title_home">SAVED</string>
-    <string name="title_dashboard">ROUTE</string>
-    <string name="title_notifications">CONTRIBUTE</string>
+    <string name="title_saved">SAVED</string>
+    <string name="title_route">ROUTE</string>
+    <string name="title_contribute">CONTRIBUTE</string>
     <string name="title_activity_maps">MAP/HOME</string>
     <string name="title_activity_login"> </string>
     <string name="prompt_email">Email</string>

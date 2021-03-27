@@ -8,33 +8,33 @@
 
     <activity
         android:id="@+id/activity_login"
-        android:name="com.example.appseniorproject.ui.login.LoginActivity"
+        android:name="com.example.TruckParkingApp.ui.login.LoginActivity"
         android:label="Login"
         tools:layout="@layout/activity_login" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.appseniorproject.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:id="@+id/navigation_route"
+        android:name="com.example.TruckParkingApp.ui.route.RouteFragment"
+        android:label="@string/title_route"
         tools:layout="@layout/fragment_route" />
 
 
     <fragment
         android:id="@+id/navigation_maps"
-        android:name="com.example.appseniorproject.MapsFragment"
+        android:name="com.example.TruckParkingApp.MapsFragment"
         android:label="@string/title_activity_maps"
         tools:layout="@layout/fragment_maps" />
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.appseniorproject.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:id="@+id/navigation_saved"
+        android:name="com.example.TruckParkingApp.ui.saved.SavedFragment"
+        android:label="@string/title_saved"
         tools:layout="@layout/fragment_saved" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.appseniorproject.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:id="@+id/navigation_contribute"
+        android:name="com.example.TruckParkingApp.ui.contribute.ContributeFragment"
+        android:label="@string/title_contribute"
         tools:layout="@layout/fragment_contribute" />
 
 </navigation>

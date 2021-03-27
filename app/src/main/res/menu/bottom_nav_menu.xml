@@ -7,9 +7,9 @@
         android:title="@string/title_activity_login" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_route"
         android:icon="@android:drawable/ic_menu_send"
-        android:title="@string/title_dashboard" />
+        android:title="@string/title_route" />
 
     <item
         android:id="@+id/navigation_maps"
@@ -17,13 +17,13 @@
         android:title="@string/title_activity_maps" />
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_saved"
         android:icon="@android:drawable/ic_input_get"
-        android:title="@string/title_home" />
+        android:title="@string/title_saved" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_contribute"
         android:icon="@android:drawable/ic_menu_add"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_contribute" />
 
 </menu>
