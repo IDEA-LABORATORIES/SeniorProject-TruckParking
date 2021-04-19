@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708626970834",
+    "project_id": "s-sp-truckparking",
+    "storage_bucket": "s-sp-truckparking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708626970834:android:0cb54f0374da60d850150b",
+        "android_client_info": {
+          "package_name": "com.example.s_sp_truckparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708626970834-2hvbklieice83ls78qf59kf8h4mgj7pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoNFXW2uQXA-QDjbk8SV4Ts5ZeiJTfT-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708626970834-2hvbklieice83ls78qf59kf8h4mgj7pd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

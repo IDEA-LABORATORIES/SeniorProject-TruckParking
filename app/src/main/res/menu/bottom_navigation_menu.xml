@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_alongroute"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_alt_route_24"
+        android:title="Along Route"/>
+    <item
+        android:id="@+id/nav_map"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Map"/>
+    <item
+        android:id="@+id/nav_saved"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_bookmarks_24"
+        android:title="Saved"/>
+    <item
+        android:id="@+id/nav_contribute"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add_location_24"
+        android:title="Contribute"/>
+</menu>
